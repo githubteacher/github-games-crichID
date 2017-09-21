@@ -1,0 +1,11 @@
+machine:
+  ruby:
+    version: 2.1.5
+
+test:
+  post:
+    - ruby tests/test_verifyurl.rb
+    - ruby tests/test_speeddecrement.rb
+    - ruby tests/test_speedmax.rb
+    - ruby tests/test_speedstart.rb
+    - ruby tests/test_differentcolors.rb
